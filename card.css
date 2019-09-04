@@ -1,0 +1,212 @@
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  background-color: #fff;
+}
+
+.jss260 {
+  margin: auto;
+  display: flex;
+  outline: 0;
+  padding: 20px;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.card-top  {
+  max-width: 345px;
+  overflow: hidden;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+  display: block;
+}
+
+.jss362{
+  background-color: #f44336;
+  color: #fff;
+}
+
+.MuiAvatar-root {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.25rem;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.MuiCardHeader-root {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+}
+
+.MuiCardHeader-avatar {
+  flex: 0 0 auto;
+  margin-right: 16px;
+}
+
+.MuiCardHeader-content {
+  flex: 1 1 auto;
+}
+
+.MuiTypography-body2 {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+
+.MuiTypography-displayBlock {
+  display: block;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.jss290 {
+  height: 0;
+  padding-top: 56.25%;
+}
+
+.MuiTypography-root {
+  margin: 0;
+}
+
+.MuiCardMedia-root {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.MuiCardContent-root {
+  padding: 16px;
+}
+
+.MuiCardHeader-action {
+  flex: 0 0 auto;
+  align-self: flex-start;
+  margin-top: -8px;
+  margin-right: -8px;
+}
+
+.MuiCardActions-root {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+
+.MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.jss291 {
+  margin-left: auto;
+  width: 42px;
+}
+
+.ripple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  width: max-content;
+  border-radius: 50%;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.14) 10%, transparent 10%, transparent);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0% 0%;
+  transition: background-size .8s;
+}
+
+.ripple:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.ripple:active {
+  background-size: 1000% 1000%;
+}
+
+i {
+  font-size: 20px;
+  color: grey;
+}
+
+.jss291 {
+  margin-left: auto;
+  width: 43px;
+}
